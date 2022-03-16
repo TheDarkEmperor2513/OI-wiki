@@ -18,7 +18,7 @@ author: Marcythm, hsfzLZH1, abc1763613206, greyqz, Ir1d, billchenchina, Chrogeek
 将与 $j$ 无关的移到外面，我们得到
 
 $$
-f_i - (s_i-L')^2=\min_{j<i}\{f_j+s_j^2 + 2s_j(L'-s_i) \} 
+f_i - (s_i-L')^2=\min_{j<i}\{f_j+s_j^2 - 2s_j(L'-s_i) \} 
 $$
 
 考虑一次函数的斜截式 $y=kx+b$，将其移项得到 $b=y-kx$。我们将与 $j$ 有关的信息表示为 $y$ 的形式，把同时与 $i,j$ 有关的信息表示为 $kx$，把要最小化的信息（与 $i$ 有关的信息）表示为 $b$，也就是截距。具体地，设
