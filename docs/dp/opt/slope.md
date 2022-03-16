@@ -27,7 +27,7 @@ $$
 \begin{aligned}
 x_j&=s_j\\
 y_j&=f_j+s_j^2\\
-k_i&=-2(L'-s_i)\\
+k_i&=2(L'-s_i)\\
 b_i&=f_i-(s_i-L')^2\\
 \end{aligned}
 $$
